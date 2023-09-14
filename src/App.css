@@ -1,0 +1,75 @@
+:root {
+  --mainColour: #520e05;
+  --secColour: #ffffff;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ }
+
+ body {
+  background-image: url('../slike/pozadina1.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  transition: background-image 1s ease-in-out;
+  margin: 0;
+  padding: 0;
+}
+
+
+body.image-1 {
+  background-image: url('../slike/pozadina1.jpeg');
+}
+
+body.image-2 {
+  background-image: url('../slike/pozadina2.png');
+}
+
+body.image-3 {
+  background-image: url('../slike/pozadina3.jpg');
+}
+
+body.image-4 {
+  background-image: url('../slike/pozadina4.jpg');
+}
+
+
+/* Media query for screens smaller than 768px (typical mobile devices) */
+@media (max-width: 768px) {
+  /* Example: Adjust the font size for better readability on smaller screens */
+  body {
+    font-size: 16px;
+  }
+
+  /* Example: Adjust header height and padding */
+  .header-container {
+    height: 80px;
+    padding: 10px;
+  }
+
+  /* Example: Center-align navigation items for mobile */
+  .nav-list {
+    justify-content: center;
+  }
+
+  /* Add more responsive styles as needed */
+}
+
+/* Media query for screens smaller than 480px (smaller mobile devices) */
+@media (max-width: 480px) {
+  /* Example: Further adjustments for very small screens */
+  body {
+    font-size: 14px;
+  }
+
+  /* Example: Hide the logo on smaller screens */
+  .logo {
+    display: none;
+  }
+
+  /* Add more responsive styles as needed */
+}
