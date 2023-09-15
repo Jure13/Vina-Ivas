@@ -1,7 +1,7 @@
 .footer {
     text-align: center;
-    padding: 20px;
-    color: var(--mainColour);
+    padding: 10px;
+    color: #520e05;
   }
   
   .footerTitle {
@@ -11,7 +11,7 @@
   
   .footerTitle strong a {
     text-decoration: none;
-    color: var(--mainColour);
+    color: #520e05;
   }
   
   .footerTitle strong a:hover {

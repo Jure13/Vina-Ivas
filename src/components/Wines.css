@@ -3,12 +3,13 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
-    height: 83.25vh;
+    height: 87vh;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     padding: 20px;
-    color: #fff;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
   }
   
   .wine-item {
@@ -23,7 +24,7 @@
   .wine-title {
     font-size: 24px;
     margin: 0;
-    color: #fff;
+    color: white;
   }
   
   .wine-image {
@@ -42,6 +43,6 @@
     font-size: 18px;
     margin-top: 10px;
     font-weight: bold;
-    color: #fff;
+    color: white;
   }
   

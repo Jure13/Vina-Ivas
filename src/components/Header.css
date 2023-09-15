@@ -3,7 +3,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    height: 100px; 
+    height: 80px; 
   }
   
   
@@ -20,13 +20,13 @@
   }
   
   .nav-item:hover {
-    color: var(--mainColour);
+    color: #520e05;
     text-decoration: underline;
   }
 
   .nav-link {
     text-decoration: none;
-    color: var(--mainColour);
+    color: #520e05;
   }
   
   .logo {
@@ -44,7 +44,7 @@
     border: none;
     cursor: pointer;
     font-size: 16px;
-    color: var(--mainColour);
+    color: #520e05;
     border-radius: 50%;
     width: 40px;
     height: 40px;
@@ -55,7 +55,7 @@
   }
   
   .language-button:hover {
-    background-color: rgb(68, 12, 8);
+    background-color: #520e05;
     color:rgb(255, 255, 255);
     text-decoration: underline;
   }

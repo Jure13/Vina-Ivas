@@ -41,7 +41,7 @@ const Wines = () => {
       title: {
         hr: 'Vino 3',
         en: 'Wine 3',
-        de: temp1,
+        de: 'Wein 3',
       },
       description: {
         hr: 'Dignissim sit amet, adipiscing nec, ultricies sed, dolor.',

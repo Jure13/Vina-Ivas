@@ -3,9 +3,10 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
-    height: 83.25vh;
+    height: 87vh;
     padding: 20px;
-    color: #fff;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
   }
   
   .contact-title {
@@ -30,7 +31,7 @@
   .contact-name {
     font-size: 24px;
     margin: 0;
-    color: #fff;
+    color: white;
   }
   
   .contact-phone {
@@ -48,7 +49,7 @@
   .address-title {
     font-size: 24px;
     margin: 0;
-    color: #fff;
+    color: white;
   }
   
   .real-address,

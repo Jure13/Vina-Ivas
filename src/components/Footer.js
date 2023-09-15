@@ -13,11 +13,11 @@ const Footer = ({ backgroundImageIndex }) => {
     },
     3: {
       background: 'rgba(144, 238, 144, 0.5)',
-      color: 'dark-crimson',
+      color: 'white',
     },
     4: {
       background: 'rgba(100, 90, 110, 0.8)',
-      color: 'dark-crimson',
+      color: 'white',
     },
   };
   
