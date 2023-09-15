@@ -1,8 +1,3 @@
-:root {
-  --mainColour: #520e05;
-  --secColour: #ffffff;
-}
-
 *{
   margin: 0;
   padding: 0;
@@ -36,7 +31,6 @@ body.image-3 {
 body.image-4 {
   background-image: url('../slike/pozadina4.jpg');
 }
-
 
 /* Media query for screens smaller than 768px (typical mobile devices) */
 @media (max-width: 768px) {

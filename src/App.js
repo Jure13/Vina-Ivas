@@ -19,7 +19,7 @@ const App = () => {
 
     return () => clearTimeout(timeout);
   }, [backgroundImageIndex]);
-  console.log(backgroundImageIndex);
+  // console.log(backgroundImageIndex);
 
   useEffect(() => {
     document.body.className = `image-${backgroundImageIndex}`;
@@ -32,7 +32,7 @@ const App = () => {
         <Header backgroundImageIndex={backgroundImageIndex} />
           <div>
             <Routes>
-              <Route path="/" element={<Home />} />
+              <Route path="/" element={<Home backgroundImageIndex={backgroundImageIndex} />} />
               <Route path="/vineyard" element={<Vineyard />} />
               <Route path="/wines" element={<Wines />} />
               <Route path="/contact" element={<Contact />} />
