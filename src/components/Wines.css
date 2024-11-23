@@ -1,0 +1,83 @@
+.wines-container {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  height: 87vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.wine-item {
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: 10px;
+  padding: 20px;
+  width: calc(20% - 20px); /* Default to 5 columns */
+  text-align: center;
+  border-radius: 10px;
+}
+
+.wine-title {
+  font-size: 24px;
+  margin: 0;
+  color: white;
+}
+
+.wine-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.wine-description {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.wine-price {
+  font-size: 18px;
+  margin-top: 10px;
+  font-weight: bold;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .wines-container {
+    flex-direction: column;
+    padding: 10px;
+    height: auto;
+  }
+
+  .wine-item {
+    width: calc(100% - 20px);
+    margin: 10px 0;
+    padding: 15px;
+  }
+
+  .wine-title {
+    font-size: 20px;
+  }
+
+  .wine-description {
+    font-size: 14px;
+  }
+
+  .wine-price {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .wine-title {
+    font-size: 18px;
+  }
+
+  .wine-price {
+    font-size: 14px;
+  }
+}

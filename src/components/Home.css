@@ -1,0 +1,35 @@
+.home-container {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 81vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+.home-title {
+    font-size: 100px;
+    font-family: 'Apple Chancery', sans-serif;
+    font-style: oblique;
+    padding: 20px;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    border: 2px solid;
+    border-radius: 10px;
+    /* color: #520e05; */
+}
+
+@media (max-width: 768px) {
+  .home-container {
+    margin-top: -50px;
+    padding-top: 0;
+  }
+
+  .home-title {
+    font-size: 50px;
+  }
+}

@@ -1,0 +1,20 @@
+.footer {
+    text-align: center;
+    padding: 10px;
+    color: #520e05;
+  }
+  
+  .footerTitle {
+    font-size: 16px;
+    margin: 0;
+  }
+  
+  .footerTitle strong a {
+    text-decoration: none;
+    color: #520e05;
+  }
+  
+  .footerTitle strong a:hover {
+    text-decoration: underline;
+  }
+  

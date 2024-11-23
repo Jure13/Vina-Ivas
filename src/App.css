@@ -1,0 +1,80 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ }
+
+ body {
+  background-image: url('../slike/pozadina1.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  transition: background-image 1s ease-in-out;
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+}
+
+
+body.image-1 {
+  background-image: url('../slike/pozadina1.jpeg');
+}
+
+body.image-2 {
+  background-image: url('../slike/pozadina2.png');
+}
+
+body.image-3 {
+  background-image: url('../slike/pozadina3.jpg');
+}
+
+body.image-4 {
+  background-image: url('../slike/pozadina4.jpg');
+}
+
+
+@media (max-width: 768px) {
+  body {
+    font-size: 1rem;
+  }
+
+  
+  .header-container {
+    height: 60px; 
+    padding: 15px;
+  }
+
+  .nav-list {
+    justify-content: center; 
+  }
+
+  
+  body {
+    background-size: 120%;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    font-size: 0.875rem;
+  }
+
+  .header-container {
+    height: 50px;
+    padding: 10px;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .nav-list {
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  body {
+    background-size: 150%;
+  }
+}
