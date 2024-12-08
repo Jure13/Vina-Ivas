@@ -16,7 +16,7 @@ const Contact = () => {
           <h2 className="contact-name">{language === 'hr' ? 'Ivica Antunović' : language === 'en' ? 'Ivica Antunović' : 'Ivica Antunović'}</h2>
           <p className="contact-phone">
             {language === 'hr'
-              ? 'telefon: +386 915 484 394'
+              ? 'telefon: +385 915 484 394'
               : language === 'en'
               ? 'phone: +386 915 484 394'
               : 'Telefon: +386 915 484 394'}
