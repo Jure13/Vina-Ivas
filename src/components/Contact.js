@@ -18,8 +18,8 @@ const Contact = () => {
             {language === 'hr'
               ? 'telefon: +385 915 484 394'
               : language === 'en'
-              ? 'phone: +386 915 484 394'
-              : 'Telefon: +386 915 484 394'}
+              ? 'phone: +385 915 484 394'
+              : 'Telefon: +385 915 484 394'}
           </p>
         </div>
 
