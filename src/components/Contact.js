@@ -40,7 +40,7 @@ const Contact = () => {
           {language === 'hr' ? 'Adresa' : language === 'en' ? 'Address' : 'Adresse'}
         </h3>
         <p className="real-address">Otrić-Seoci 117, Pojezerje 20342</p>
-        <p className="email-address">{language === 'hr' ? 'Email: kontakt@ivas.hr' : language === 'en' ? 'Email: kontakt@ivas.hr' : 'E-Mail: kontakt@ivas.hr'}</p>
+        <p className="email-address">{language === 'hr' ? 'Email: kontakt@vina-ivas.hr' : language === 'en' ? 'Email: kontakt@vina-ivas.hr' : 'E-Mail: kontakt@vina-ivas.hr'}</p>
       </div>
     </div>
   );
